@@ -1,5 +1,10 @@
 # ZORAXY-DOCKER
 
+[![Repo](https://img.shields.io/badge/Docker-Repo-007EC6?labelColor-555555&color-007EC6&logo=docker&logoColor=fff&style=flat-square)](https://hub.docker.com/r/cyb3rdoc/zoraxy)
+[![Version](https://img.shields.io/docker/v/cyb3rdoc/zoraxy/latest?labelColor-555555&color-007EC6&style=flat-square)](https://hub.docker.com/r/cyb3rdoc/zoraxy)
+[![Size](https://img.shields.io/docker/image-size/cyb3rdoc/zoraxy/latest?sort=semver&labelColor-555555&color-007EC6&style=flat-square)](https://hub.docker.com/r/cyb3rdoc/zoraxy)
+[![Pulls](https://img.shields.io/docker/pulls/cyb3rdoc/zoraxy?labelColor-555555&color-007EC6&style=flat-square)](https://hub.docker.com/r/cyb3rdoc/zoraxy)
+
 Dockerized [Zoraxy](https://github.com/tobychui/zoraxy)
 
 Zoraxy is a general purpose request (reverse) proxy and forwarding tool for low power devices, written in Go. This is only a docker containerized version of zoraxy.
