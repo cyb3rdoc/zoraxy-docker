@@ -16,7 +16,7 @@ docker build -t "${USER?}/zoraxy:${TIMESTAMP}" .
 
 Run zoraxy docker container:
 ```
-docker run -d --name zoraxy -v /path/to/zoraxy:/zoraxy your_username/zoraxy:YYYYMMDD-HHMM
+docker run -d --name zoraxy -p 8000:8000 -v /path/to/zoraxy:/zoraxy your_username/zoraxy:YYYYMMDD-HHMM
 ```
 
 Mount '/zoraxy' volume to store settings.
@@ -32,6 +32,8 @@ services:
     container_name: zoraxy
     hostname: zoraxy
     image: cyb3rdoc/zoraxy:latest
+    ports:
+      - 8000:8000
     volumes:
       - /path/to/zoraxy:/zoraxy
     restart: unless-stopped

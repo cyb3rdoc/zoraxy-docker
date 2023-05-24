@@ -4,6 +4,8 @@ services:
     container_name: zoraxy
     hostname: zoraxy
     image: cyb3rdoc/zoraxy:latest
+    ports:
+      - 8000:8000
     volumes:
       - /path/to/zoraxy:/zoraxy
     restart: unless-stopped
