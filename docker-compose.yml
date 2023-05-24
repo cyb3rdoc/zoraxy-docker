@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  eznvr:
+    container_name: zoraxy
+    hostname: zoraxy
+    image: cyb3rdoc/zoraxy:latest
+    volumes:
+      - /path/to/zoraxy:/zoraxy
+    restart: unless-stopped
