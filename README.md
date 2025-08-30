@@ -1,3 +1,5 @@
+## Zoraxy maintains its official docker image, hence this repo is archived !
+
 # ZORAXY-DOCKER
 
 [![Repo](https://img.shields.io/badge/Docker-Repo-007EC6?labelColor-555555&color-007EC6&logo=docker&logoColor=fff&style=flat-square)](https://hub.docker.com/r/cyb3rdoc/zoraxy)
